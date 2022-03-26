@@ -18,12 +18,12 @@ To prove Grand is available, we take two GDBs, JanusGraph and TinkerGraph, as ex
 
 ### Runing Grand
 Using command `java -jar gdbtesting.jar QueryDepth VerMaxNum EdgeMaxNum EdgeLabelNum VerLabelNum QueryNum` to start Grand, the parameters represents for
-- `QueryDepth`, the max length of the query we generated.
-- `VerMaxNum`, the maximum number of the Vertex in the generated graph.
-- `EdgeMaxNum`, the maximum number of the Edge in the generated graph.
-- `EdgeLabelNum`, the maximum number of the edge label in the generated graph.
-- `VerLabelNum`, the maximum number of the vertex label in the generated graph.
-- `QueryNum`, the number of query generated in a test round.
+- `QueryDepth`, the max length of the query we generated, e.g., 8.
+- `VerMaxNum`, the maximum number of the Vertex in the generated graph, e.g. 500.
+- `EdgeMaxNum`, the maximum number of the Edge in the generated graph, e.g., 500.
+- `EdgeLabelNum`, the maximum number of the edge label in the generated graph, e.g., 20.
+- `VerLabelNum`, the maximum number of the vertex label in the generated graph, e.g., 20.
+- `QueryNum`, the number of query generated in a test round, e.g., 200.
 
 ### Checking Results
 Result files are stored under path `log-1`, including:
